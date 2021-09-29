@@ -33,7 +33,7 @@ io.on("connection", function (socket) {
       try {
         const sessionId = uuid.v4();
         const sessionClient = new dialogflow.SessionsClient({
-          keyFilename: "./WebSpeechAIbot-41194528781e.json",
+          keyFilename: "./robot-bot-wswh-b63a995aabf4.json",
         });
         const sessionPath = sessionClient.projectAgentSessionPath(
           projectId,
